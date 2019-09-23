@@ -54,7 +54,7 @@ $(document).ready(function () {
             answer: 0,
         },
         {
-            question: "Who is the youngest Grand Slam Womens Singles champion in tennis as of 2019?",
+            question: "Who is the youngest Grand Slam Womens Singles champion as of 2019?",
             choice: ["Monica Seles" , "Tracy Austin" , "Martina Hingis" , "Maria sharapova"],
             answer: 2,
         }
