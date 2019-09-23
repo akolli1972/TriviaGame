@@ -10,10 +10,7 @@
 
 }
 
-/* img { */
-  /* max-height: 250px;
-  width: auto;
-} */
+
 
 #answerblock {
   text-align: center;
@@ -34,7 +31,7 @@
 
 h1 {
   text-align: center;
-  color: white;
+  color: yellow;
   font-weight: bolder;
   padding: 10px;
   font-size: 70px;
