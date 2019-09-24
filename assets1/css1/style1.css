@@ -1,10 +1,10 @@
 .answerchoice {
 	border: 20px solid purple;
   border-radius: 2%;
-	width: 40%;
+	width: 30%;
 	color: white;
   text-align: center;
-  margin: 20px auto;
+  margin: 5px auto;
   font-size: 20px;
   background-color: black;
 
@@ -53,14 +53,14 @@ h2  {
   margin: 10px auto;
   background-color: rgba(255, 255, 255, 0.7);
   border: 2px solid #403fd3;
-  height: 480px;
+  height: 428px;
   width: 70%;
   text-align: center;
 }
 
 .btn {
   position: relative;
-  bottom: -150px;
+  bottom: -110px;
 }
 .bod {
   background-color: aqua;

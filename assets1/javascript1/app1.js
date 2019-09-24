@@ -4,59 +4,68 @@ $(document).ready(function () {
             question: "What does the term 'Deuce' mean in Tennis?",
             choice: ["40-40", "30-15", "15-30", "0-40"],
             answer: 0,
+            photo: "assets1/images1/40-40.jpg"
             
          },
          {
              question: "Who won womens singles US OPEN 2019?", 
             choice: ["Serena", "Andreescu", "Kerber", "Halep"],
             answer: 1,
+            photo: "assets1/images1/andreescu.jpg"
             
          }, 
          {
              question: "Who won Mens singles US OPEN, 2019?", 
             choice: ["Federer", "Djokovich", "Nadal", "Thiem" ],
             answer: 2,
+            photo: "assets1/images1/nadal.jpg"
             
         }, 
         {
             question: "French Open is played on what surface?", 
             choice: ["Hard Court", "Grass" , "Clay" , "glass" ],
             answer: 2,
+            photo: "assets1/images1/claycourt.jpg"
             
         }, 
         {
             question: "The Grand Slam tennis played on grass is ", 
             choice: ["Australian", "US OPEN", "French Open", "Wimbledon" ],
             answer: 3,
+            photo: "assets1/images1/wimbledon.jpg"
             
         }, 
         {
             question: "Who among these tennis palyers belong to the US?", 
             choice: ["Andy Roddick", " Stan Wawrinka", "Nick Kyrios", "Andy Murry" ],
             answer: 0,
+            photo: "assets1/images1/andy1.jpg"
             
         }, 
         {
             question: "Who won 24 grand slams in Womens Singles tennis so far?", 
             choice: ["Serena", "Margaret Court", "Steffi Graff" , "Halep" ],
             answer: 1,
-            photo: "assets/images/lemon.gif"
+            photo: "assets1/images1/margaretcourt.jpg"
         }, 
         {
             question: "How many Grand Slam Titles does Roger Federer have as of 2019?", 
             choice: ["20", "19", "21", "22" ],
             answer: 0,
+            photo: "assets1/images1/20image.png"
             
         },
         {
             question: "Who among these players is considered a legend in Tennis?",
             choice: ["Rod Laver", "Magic Jackson" , "Cristiano Ronaldo" , "Pele"],
             answer: 0,
+            photo: "assets1/images1/rodlaver.jpg"
         },
         {
             question: "Who is the youngest Grand Slam Womens Singles champion as of 2019?",
             choice: ["Monica Seles" , "Tracy Austin" , "Martina Hingis" , "Maria sharapova"],
             answer: 2,
+            photo: "assets1/images1/martina.jpg"
         }
     
     
@@ -184,6 +193,7 @@ $(document).ready(function () {
             correctCount = 0;
             wrongCount = 0;
             unanswerCount = 0;
+            
     
         } else {
             runTimer();
